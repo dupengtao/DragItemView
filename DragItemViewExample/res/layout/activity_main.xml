@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvCustomGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/main_external_top_margins"
+        android:text="@string/customGameCut"
+         />
+
+    <com.dpt.dragitemview.widget.DragView
+        android:layout_marginTop="@dimen/main_external_top_margins"
+        android:layout_below="@id/tvCustomGame"
+        android:id="@+id/dragview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/ivCustomGameTrash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/main_external_right_margins"
+        android:src="@drawable/del_custom_null"
+        android:visibility="gone" />
+
+</RelativeLayout>
