@@ -8,6 +8,8 @@ DragItemView
 -----------------------------------
 截图
 
+![github](https://github.com/dupengtao/DragItemView/blob/master/example_photo.png?raw=true "DragItemView")
+
 参考
 -----------------------------------
 参考代码:
